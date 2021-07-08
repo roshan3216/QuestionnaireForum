@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*background-color: rgb(54, 206, 143);*/
+    background-image: url(../templates/cityscape.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.container {
+    /*background-color: white;*/
+    height: 70px;
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 15px 200px;
+    padding: 5px;
+    background-color: transparent;
+    /*color: #C0C0C0;*/
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    border: 2px #fff solid;
+    border-radius: 20px;
+    display: inline-block;
+    font-family: 'Cormorant Upright', serif;
+}
+
+.center {
+    text-decoration: aqua;
+    font-style: italic;
+    background: transparent;
+    text-align: center;
+}
+
+.grey-text {
+    color: #C0C0C0;
+}
+
+.login-button {
+    background: transparent
+}
+
+.red-text {
+    color: red;
+    font-family: 'Oranienbaum', serif;
+    font-size: 15px;
+}
+
+div ul {
+    float: right;
+    list-style-type: none;
+    color: #C0C0C0;
+    margin-bottom: 0;
+    margin: 20px 200px auto;
+    font-family: 'Cormorant Upright', serif;
+}
+
+div ul li {
+    display: inline;
+    position: relative;
+    font-size: 20px;
+}
+
+.log-out {
+    margin-left: 20px;
+    width: 20px;
+    overflow: hidden;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    top: -10px;
+    text-align: center;
+    width: 100px;
+    color: white;
+}
+
+.log-out:hover {
+    color: white;
+    font-size: 20px;
+    background-color: #05b3b4;
+    /*
+    -webkit-transition: hover 0.7s;
+    -moz-transition: hover 0.7s;
+    transition: hover 0.7s;
+    */
+}
+
+.tm-form {
+    margin: auto;
+    max-width: 700px;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: white;
+}
+
+.tm-form p {
+    padding-right: 10px;
+    padding-bottom: 5px;
+    text-align: right;
+    font-family: 'Esteban', serif;
+}
+
+.pos-right {
+    position: relative;
+    text-align: right;
+    padding-right: 10px;
+    margin-right: 5px;
+    margin-top: 5px;
+    color: #d39dde;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.register-button {
+    position: relative;
+    right: 0em;
+    text-decoration: none;
+    padding: 5px;
+    border: 3px #428dd3 solid;
+    background-color: #608dd1;
+    border-radius: 15px;
+}
+
+.tm-form h2 {
+    padding-top: 10px;
+}
+
+.tm-form h4 {
+    padding-top: 5px;
+    font-style: normal;
+}
+
+div.fields {
+    font-size: 5px;
+    display: inline;
+}
+
+.tm-form form {
+    margin: 20px;
+    padding: 15px;
+}
+
+.tm-form form input[type="text"] {
+    padding-left: 15px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #636b68;
+    width: 60%;
+    height: 2.5em;
+    margin-top: 5px;
+}
+
+.tm-form form input[type="password"] {
+    height: 2.5em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tm-form form input[type="radio"] {
+    margin-right: 5px;
+}
+
+.tm-form label {
+    display: inline-block;
+    width: 330px;
+    font-family: 'Gelasio', serif;
+}
+
+.tm-form form input[type="text"]:focus {
+    border-bottom: 2px solid #42d3a2;
+}
+
+.tm-form form input[type="submit"] {
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.tm-form form input[type="date"] {
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #9e9e9e;
+    height: 2.5em;
+    margin-top: 5px;
+}
+
+.topic {
+    left: 20px;
+    position: relative;
+    margin: 10px;
+    padding: 5px;
+    width: 100px;
+    color: #05d1be;
+    border-radius: 10px;
+}
+
+.topic:hover {
+    color: white;
+    background-color: #408dcc;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+/*
+.hidden {
+    visibility: hidden;
+}
+*/
+
+.tm-forum-form {
+    position: fixed;
+    z-index: 3;
+    left: 200px;
+    top: 300px;
+    padding-left: 15px;
+    /* border: 2px #96d9f1 solid; */
+    /* background-color: #96d9f1; */
+    border-radius: 20px;
+    background-color: #eeeee4;
+    color: #eab676;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 700px;
+    font-size: 20px;
+    /*
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #636b68;
+    */
+}
+
+.tm-forum-form form label {
+    width: 100px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.tm-forum-form form input[type="text"] {
+    /*
+    padding: 5px;
+    height: 10px;
+    */
+    padding-left: 15px;
+    padding-right: 10px;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    color: black;
+    height: 30px;
+    border-bottom: 2px solid #636b68;
+    width: 200px;
+    height: 2.5em;
+    margin-top: 5px;
+}
+
+.tm-forum-form form textarea {
+    padding: 20px;
+    font-size: 15px;
+    height: 100px;
+    width: 300px;
+    color: black;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.tm-forum-form form input[type="submit"] {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #e28743;
+    margin: 10px;
+    color: #C0C0C0;
+    border-radius: 10px;
+}
+
+.tm-forum-form form input[type="submit"]:hover {
+    font-size: 15px;
+    color: #cc406a;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.clicked {
+    position: relative;
+    display: contents;
+    left: 20px;
+    top: 20px;
+    padding: 5px;
+    margin: 5px;
+    width: 500px;
+}
+
+.divContent h4 {
+    display: inline-block;
+    top: 8px;
+    width: 30%;
+    color: #cc406a;
+}
+
+
+/*
+#showTopics {
+    height: auto;
+    width: 400px;
+    border: 2px cyan solid;
+    position: relative;
+    margin: 10px;
+    padding: 5px;
+}
+*/
+
+.tm-footer {
+    /*
+    position: absolute;
+    bottom: 0;*/
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    height: 30px;
+    padding-top: 10px;
+    font-family: 'Cormorant Upright', serif;
+}
